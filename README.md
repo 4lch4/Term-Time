@@ -1,6 +1,11 @@
 # Terminal Customization
 
-This repository is home to a collection of configuration files, scripts, etc., for customizing my
+> [!IMPORTANT]
+> This repo has been archived as it is either no longer needed, I have another repo that serves the same purpose, or I simply don't want to maintain it anymore.
+>
+> In the case of this repo, I've moved the relevant code to [my dotfiles repo][3].
+
+This repo is home to a collection of configuration files, scripts, etc., for customizing my
 terminal environment.
 
 ## Pre-requisites
@@ -17,10 +22,10 @@ In order for the following installation steps to work properly, you'll need to h
 Once you have the pre-requisites installed, you can run the following commands to apply my customizations:
 
 ```bash
-# Clone this repository to your local machine.
+# Clone this repo to your local machine.
 git clone git@github.com:4lch4/Term-Time.git
 
-# Change into the cloned repository.
+# Change into the cloned repo.
 cd Term-Time
 
 # Run the setup task to apply the customizations.
@@ -30,3 +35,4 @@ task setup
 [0]: https://brew.sh
 [1]: https://taskfile.dev
 [2]: https://www.gnu.org/software/make
+[3]: https://github.com/4lch4/Dotfiles
